@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Carros</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à nossa loja!</h2>
+        <p>Oferecemos uma ampla variedade de carros para todos os gostos e orçamentos. Confira nossos produtos!</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Carros</h2>
+        <div class="produto">
+            <img src="imagens/carro1.jpg" alt="Carro 1">
+            <h3>Carro 1</h3>
+            <p>Preço: R$ 50.000,00</p>
+            <p>Descrição: Um carro confortável e econômico, perfeito para a cidade.</p>
+        </div>
+        <div class="produto">
+            <img src="imagens/carro2.jpg" alt="Carro 2">
+            <h3>Carro 2</h3>
+            <p>Preço: R$ 70.000,00</p>
+            <p>Descrição: Ideal para famílias, com muito espaço e segurança.</p>
+        </div>
+        <div class="produto">
+            <img src="imagens/carro3.jpg" alt="Carro 3">
+            <h3>Carro 3</h3>
+            <p>Preço: R$ 90.000,00</p>
+            <p>Descrição: Um carro esportivo com desempenho excepcional.</p>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na nossa loja, trabalhamos para oferecer os melhores carros do mercado. Nossa equipe é apaixonada por automóveis e está sempre pronta para ajudar você a encontrar o carro perfeito!</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Loja de Carros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
